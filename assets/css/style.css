@@ -1,3 +1,4 @@
+@import url(/assets/css/roots.css);
 .bg-img-1{
     background-image: url(/assets/image/bg-img-1.png);
     background-size: cover;
@@ -30,6 +31,66 @@
     color: white;
     transition: all .2s ease-in-out;
 }
+.line-1{
+    width: 189px;
+height: 8px;
+top: 440px;
+left: 866px;
+gap: 0px;
+opacity: 0px;
+background: #01C8FF;
+}
+.line-2{
+    width: 166px;
+height: 8px;
+top: 440px;
+left: 866px;
+gap: 0px;
+opacity: 0px;
+background: #2C49FE;
+}
+.mt-68{
+    margin-top: 68px;
+    margin-bottom: 33px;
+}
+.butn{
+    background: #2C49FE;
+    padding: 11px 28px;
+    border: none;
+    border-radius: 23px;
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 35px 0px #0000001A;
+}
+.card:hover{
+    border: transparent;
+}
+.padding-81{
+    padding-top: 81px;
+    padding-bottom: 30px;
+  }
+  .pb-30{
+    padding-bottom: 30px;
+  }
+/*---------------------roots---------------------*/
+.home{
+    font-size: var(--fs-16);
+}
+.events{
+    font-size: var(--fs-36);
+}
+.event-text{
+    font-size: var(--fs-64);
+}
+.lorem{
+    font-size: var(--fs-24);
+}
+
+
+
+
+
 .home:hover{
     opacity: 60%;
 }
@@ -46,68 +107,6 @@
 }
 
 
-/*-----------------------------------fonts------------------------*/
-.poppins-600-48 {
-    font-family: "Poppins", sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-}
-
-.poppins-600-24 {
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.poppins-400-16 {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.poppins-400-12 {
-    font-family: "Poppins", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-}
-
-.poppins-700-36 {
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-}
-
-.poppins-600-16 {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.poppins-500-16 {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-}
-
-.poppins-700-16 {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.poppins-600-24 {
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.poppins-600-36 {
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
-    font-weight: 600;
-    text-align: center;
-}
 
 /*------------------------------responsive---------------------*/
 @media (max-width:992px) {
