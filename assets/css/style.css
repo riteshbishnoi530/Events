@@ -68,6 +68,9 @@ background: #2C49FE;
 .image{
     margin-bottom: 21px;
 }
+.cursor{
+    cursor: pointer;
+}
 /*---------------------roots---------------------*/
 .home{
     font-size: var(--fs-16);
@@ -197,6 +200,10 @@ background: #2C49FE;
     input[type="checkbox"]:checked~.navlist {
         right: 0;
     }
+    .imge{
+        width: 50px;
+        height: 40px;
+    }
 
 
     /*---------------------roots---------------------*/
@@ -205,7 +212,7 @@ background: #2C49FE;
     font-size: var(--fw-400);
 }
 .events{
-    font-size: var(--fs-18);
+    font-size: var(--fs-24);
     font-weight: var(--fw-700);
 }
 .homee{
@@ -213,7 +220,7 @@ background: #2C49FE;
     font-size: var(--fw-400);
 }
 .event-text{
-    font-size: var(--fs-32);
+    font-size: var(--fs-48);
     font-weight:var(--fw-600);
 }
 .lorem{
@@ -244,4 +251,65 @@ background: #2C49FE;
         font-size: var(--fs-14);
         font-weight: var(--fw-700);
 }
+.button {
+    background: #2C49FE;
+    padding: 10px 18px;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+}
+@media (max-width:575px){
+    .events{
+        font-size: var(--fs-16);
+        font-weight: var(--fw-700);
+    }
+    .choose{
+        font-size: var(--fs-12);
+        font-weight: var(--fw-700);
+    }
+    .lorem{
+        font-size: var(--fs-24);
+        font-weight: var(--fw-600);
+    }
+    .imge{
+        width: 60px;
+        height: 50px;
+    }
+    .line-1{
+        width: 120px;
+    height: 8px;
+    top: 440px;
+    left: 866px;
+    gap: 0px;
+    opacity: 0px;
+    background: #01C8FF;
+    }
+    .line-2{
+        width: 100px;
+    height: 8px;
+    top: 440px;
+    left: 866px;
+    gap: 0px;
+    opacity: 0px;
+    background: #2C49FE;
+    }
+  
+
+}
+@media (max-width:425px){
+    .lorem{
+        font-size: var(--fs-12);
+        font-weight: var(--fw-600);
+    }
+    .event-text{
+        font-size: var(--fs-36);
+        font-weight:var(--fw-600);
+    }
+    .homee{
+        font-size: var(--fs-12);
+        font-size: var(--fw-400);
+    }
+ 
 }
