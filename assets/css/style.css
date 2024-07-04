@@ -15,8 +15,8 @@
 }
 
 .button {
-    background: #2C49FE;
-    padding: 4% 8%;
+    background: hsl(232, 99%, 58%);
+    padding: 3% 8%;
     border: 0;
     border-radius: 23px;
     color: white;
